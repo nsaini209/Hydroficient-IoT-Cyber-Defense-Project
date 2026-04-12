@@ -1,0 +1,922 @@
+[
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 1,
+        "pressure_upstream": 74.5,
+        "pressure_downstream": 75.6,
+        "flow_rate": 34.1,
+        "timestamp": "2026-04-12T22:57:37.713013+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 2,
+        "pressure_upstream": 77.4,
+        "pressure_downstream": 75.7,
+        "flow_rate": 34.3,
+        "timestamp": "2026-04-12T22:57:37.713022+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 3,
+        "pressure_upstream": 76.4,
+        "pressure_downstream": 79.0,
+        "flow_rate": 35.5,
+        "timestamp": "2026-04-12T22:57:37.713026+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 4,
+        "pressure_upstream": 74.2,
+        "pressure_downstream": 75.7,
+        "flow_rate": 33.1,
+        "timestamp": "2026-04-12T22:57:37.713028+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 5,
+        "pressure_upstream": 75.6,
+        "pressure_downstream": 78.0,
+        "flow_rate": 33.4,
+        "timestamp": "2026-04-12T22:57:37.713031+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 6,
+        "pressure_upstream": 75.2,
+        "pressure_downstream": 76.9,
+        "flow_rate": 32.8,
+        "timestamp": "2026-04-12T22:57:37.713034+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 7,
+        "pressure_upstream": 74.6,
+        "pressure_downstream": 78.8,
+        "flow_rate": 36.7,
+        "timestamp": "2026-04-12T22:57:37.713036+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 8,
+        "pressure_upstream": 74.4,
+        "pressure_downstream": 77.2,
+        "flow_rate": 34.2,
+        "timestamp": "2026-04-12T22:57:37.713038+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 9,
+        "pressure_upstream": 73.5,
+        "pressure_downstream": 77.7,
+        "flow_rate": 35.0,
+        "timestamp": "2026-04-12T22:57:37.713041+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 10,
+        "pressure_upstream": 74.0,
+        "pressure_downstream": 77.4,
+        "flow_rate": 33.0,
+        "timestamp": "2026-04-12T22:57:37.713043+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 11,
+        "pressure_upstream": 73.9,
+        "pressure_downstream": 75.0,
+        "flow_rate": 35.5,
+        "timestamp": "2026-04-12T22:57:37.713046+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 12,
+        "pressure_upstream": 75.0,
+        "pressure_downstream": 78.5,
+        "flow_rate": 37.5,
+        "timestamp": "2026-04-12T22:57:37.713048+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 13,
+        "pressure_upstream": 77.5,
+        "pressure_downstream": 78.3,
+        "flow_rate": 36.8,
+        "timestamp": "2026-04-12T22:57:37.713053+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 14,
+        "pressure_upstream": 75.3,
+        "pressure_downstream": 74.0,
+        "flow_rate": 32.2,
+        "timestamp": "2026-04-12T22:57:37.713056+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 15,
+        "pressure_upstream": 76.6,
+        "pressure_downstream": 78.2,
+        "flow_rate": 37.5,
+        "timestamp": "2026-04-12T22:57:37.713058+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 16,
+        "pressure_upstream": 72.4,
+        "pressure_downstream": 73.4,
+        "flow_rate": 37.0,
+        "timestamp": "2026-04-12T22:57:37.713062+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 17,
+        "pressure_upstream": 77.1,
+        "pressure_downstream": 73.5,
+        "flow_rate": 37.4,
+        "timestamp": "2026-04-12T22:57:37.713064+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 18,
+        "pressure_upstream": 76.9,
+        "pressure_downstream": 76.4,
+        "flow_rate": 35.1,
+        "timestamp": "2026-04-12T22:57:37.713067+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 19,
+        "pressure_upstream": 76.0,
+        "pressure_downstream": 74.1,
+        "flow_rate": 35.0,
+        "timestamp": "2026-04-12T22:57:37.713069+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 20,
+        "pressure_upstream": 76.2,
+        "pressure_downstream": 75.8,
+        "flow_rate": 36.3,
+        "timestamp": "2026-04-12T22:57:37.713071+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 21,
+        "pressure_upstream": 74.7,
+        "pressure_downstream": 74.7,
+        "flow_rate": 34.7,
+        "timestamp": "2026-04-12T22:57:37.713073+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 22,
+        "pressure_upstream": 74.1,
+        "pressure_downstream": 75.2,
+        "flow_rate": 33.2,
+        "timestamp": "2026-04-12T22:57:37.713075+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 23,
+        "pressure_upstream": 75.8,
+        "pressure_downstream": 77.2,
+        "flow_rate": 36.0,
+        "timestamp": "2026-04-12T22:57:37.713077+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 24,
+        "pressure_upstream": 76.9,
+        "pressure_downstream": 74.5,
+        "flow_rate": 37.6,
+        "timestamp": "2026-04-12T22:57:37.713079+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 25,
+        "pressure_upstream": 73.9,
+        "pressure_downstream": 73.8,
+        "flow_rate": 34.2,
+        "timestamp": "2026-04-12T22:57:37.713082+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 26,
+        "pressure_upstream": 74.6,
+        "pressure_downstream": 73.5,
+        "flow_rate": 34.7,
+        "timestamp": "2026-04-12T22:57:37.713084+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 27,
+        "pressure_upstream": 74.6,
+        "pressure_downstream": 77.0,
+        "flow_rate": 35.9,
+        "timestamp": "2026-04-12T22:57:37.713086+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 28,
+        "pressure_upstream": 78.0,
+        "pressure_downstream": 78.4,
+        "flow_rate": 32.4,
+        "timestamp": "2026-04-12T22:57:37.713088+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 29,
+        "pressure_upstream": 76.3,
+        "pressure_downstream": 75.2,
+        "flow_rate": 32.6,
+        "timestamp": "2026-04-12T22:57:37.713091+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 30,
+        "pressure_upstream": 76.7,
+        "pressure_downstream": 78.6,
+        "flow_rate": 36.2,
+        "timestamp": "2026-04-12T22:57:37.713093+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 31,
+        "pressure_upstream": 74.9,
+        "pressure_downstream": 75.0,
+        "flow_rate": 32.2,
+        "timestamp": "2026-04-12T22:57:37.713095+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 32,
+        "pressure_upstream": 76.9,
+        "pressure_downstream": 78.2,
+        "flow_rate": 36.1,
+        "timestamp": "2026-04-12T22:57:37.713097+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 33,
+        "pressure_upstream": 77.3,
+        "pressure_downstream": 78.2,
+        "flow_rate": 37.6,
+        "timestamp": "2026-04-12T22:57:37.713099+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 34,
+        "pressure_upstream": 77.4,
+        "pressure_downstream": 75.6,
+        "flow_rate": 34.0,
+        "timestamp": "2026-04-12T22:57:37.713102+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 35,
+        "pressure_upstream": 75.5,
+        "pressure_downstream": 76.1,
+        "flow_rate": 37.4,
+        "timestamp": "2026-04-12T22:57:37.713104+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 36,
+        "pressure_upstream": 76.7,
+        "pressure_downstream": 78.8,
+        "flow_rate": 34.6,
+        "timestamp": "2026-04-12T22:57:37.713106+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 37,
+        "pressure_upstream": 73.6,
+        "pressure_downstream": 73.0,
+        "flow_rate": 34.0,
+        "timestamp": "2026-04-12T22:57:37.713108+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 38,
+        "pressure_upstream": 77.5,
+        "pressure_downstream": 74.8,
+        "flow_rate": 37.6,
+        "timestamp": "2026-04-12T22:57:37.713112+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 39,
+        "pressure_upstream": 76.7,
+        "pressure_downstream": 74.2,
+        "flow_rate": 34.1,
+        "timestamp": "2026-04-12T22:57:37.713115+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 40,
+        "pressure_upstream": 77.7,
+        "pressure_downstream": 76.6,
+        "flow_rate": 34.1,
+        "timestamp": "2026-04-12T22:57:37.713117+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 41,
+        "pressure_upstream": 77.8,
+        "pressure_downstream": 74.4,
+        "flow_rate": 37.5,
+        "timestamp": "2026-04-12T22:57:37.713119+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 42,
+        "pressure_upstream": 72.7,
+        "pressure_downstream": 78.8,
+        "flow_rate": 32.4,
+        "timestamp": "2026-04-12T22:57:37.713121+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 43,
+        "pressure_upstream": 73.7,
+        "pressure_downstream": 75.5,
+        "flow_rate": 35.7,
+        "timestamp": "2026-04-12T22:57:37.713124+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 44,
+        "pressure_upstream": 76.2,
+        "pressure_downstream": 75.5,
+        "flow_rate": 36.2,
+        "timestamp": "2026-04-12T22:57:37.713126+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 45,
+        "pressure_upstream": 72.4,
+        "pressure_downstream": 76.6,
+        "flow_rate": 32.6,
+        "timestamp": "2026-04-12T22:57:37.713129+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 46,
+        "pressure_upstream": 72.4,
+        "pressure_downstream": 73.2,
+        "flow_rate": 34.8,
+        "timestamp": "2026-04-12T22:57:37.713131+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 47,
+        "pressure_upstream": 78.0,
+        "pressure_downstream": 75.8,
+        "flow_rate": 37.2,
+        "timestamp": "2026-04-12T22:57:37.713133+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 48,
+        "pressure_upstream": 72.9,
+        "pressure_downstream": 78.8,
+        "flow_rate": 37.1,
+        "timestamp": "2026-04-12T22:57:37.713135+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 49,
+        "pressure_upstream": 77.7,
+        "pressure_downstream": 77.3,
+        "flow_rate": 37.3,
+        "timestamp": "2026-04-12T22:57:37.713138+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 50,
+        "pressure_upstream": 73.0,
+        "pressure_downstream": 75.9,
+        "flow_rate": 32.4,
+        "timestamp": "2026-04-12T22:57:37.713141+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 51,
+        "pressure_upstream": 74.7,
+        "pressure_downstream": 77.7,
+        "flow_rate": 37.9,
+        "timestamp": "2026-04-12T22:57:37.713143+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 52,
+        "pressure_upstream": 72.9,
+        "pressure_downstream": 73.5,
+        "flow_rate": 34.1,
+        "timestamp": "2026-04-12T22:57:37.713145+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 53,
+        "pressure_upstream": 76.4,
+        "pressure_downstream": 78.8,
+        "flow_rate": 32.3,
+        "timestamp": "2026-04-12T22:57:37.713147+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 54,
+        "pressure_upstream": 76.1,
+        "pressure_downstream": 77.0,
+        "flow_rate": 35.1,
+        "timestamp": "2026-04-12T22:57:37.713150+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 55,
+        "pressure_upstream": 74.3,
+        "pressure_downstream": 76.3,
+        "flow_rate": 37.5,
+        "timestamp": "2026-04-12T22:57:37.713153+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 56,
+        "pressure_upstream": 73.5,
+        "pressure_downstream": 75.5,
+        "flow_rate": 36.6,
+        "timestamp": "2026-04-12T22:57:37.713156+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 57,
+        "pressure_upstream": 77.6,
+        "pressure_downstream": 73.1,
+        "flow_rate": 38.0,
+        "timestamp": "2026-04-12T22:57:37.713158+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 58,
+        "pressure_upstream": 72.6,
+        "pressure_downstream": 77.9,
+        "flow_rate": 32.2,
+        "timestamp": "2026-04-12T22:57:37.713160+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 59,
+        "pressure_upstream": 75.7,
+        "pressure_downstream": 76.8,
+        "flow_rate": 37.9,
+        "timestamp": "2026-04-12T22:57:37.713162+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 60,
+        "pressure_upstream": 72.8,
+        "pressure_downstream": 77.2,
+        "flow_rate": 32.7,
+        "timestamp": "2026-04-12T22:57:37.713164+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 61,
+        "pressure_upstream": 73.1,
+        "pressure_downstream": 76.0,
+        "flow_rate": 33.2,
+        "timestamp": "2026-04-12T22:57:37.713166+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 62,
+        "pressure_upstream": 73.8,
+        "pressure_downstream": 74.3,
+        "flow_rate": 35.1,
+        "timestamp": "2026-04-12T22:57:37.713169+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 63,
+        "pressure_upstream": 74.2,
+        "pressure_downstream": 74.4,
+        "flow_rate": 36.1,
+        "timestamp": "2026-04-12T22:57:37.713171+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 64,
+        "pressure_upstream": 75.8,
+        "pressure_downstream": 74.6,
+        "flow_rate": 34.7,
+        "timestamp": "2026-04-12T22:57:37.713173+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 65,
+        "pressure_upstream": 77.5,
+        "pressure_downstream": 73.7,
+        "flow_rate": 35.0,
+        "timestamp": "2026-04-12T22:57:37.713175+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 66,
+        "pressure_upstream": 73.5,
+        "pressure_downstream": 77.1,
+        "flow_rate": 37.6,
+        "timestamp": "2026-04-12T22:57:37.713177+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 67,
+        "pressure_upstream": 76.5,
+        "pressure_downstream": 77.3,
+        "flow_rate": 37.7,
+        "timestamp": "2026-04-12T22:57:37.713180+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 68,
+        "pressure_upstream": 75.8,
+        "pressure_downstream": 75.4,
+        "flow_rate": 34.6,
+        "timestamp": "2026-04-12T22:57:37.713182+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 69,
+        "pressure_upstream": 77.8,
+        "pressure_downstream": 74.8,
+        "flow_rate": 33.8,
+        "timestamp": "2026-04-12T22:57:37.713184+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 70,
+        "pressure_upstream": 76.5,
+        "pressure_downstream": 77.9,
+        "flow_rate": 34.3,
+        "timestamp": "2026-04-12T22:57:37.713186+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 71,
+        "pressure_upstream": 75.2,
+        "pressure_downstream": 73.2,
+        "flow_rate": 36.1,
+        "timestamp": "2026-04-12T22:57:37.713188+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 72,
+        "pressure_upstream": 72.5,
+        "pressure_downstream": 73.7,
+        "flow_rate": 36.3,
+        "timestamp": "2026-04-12T22:57:37.713190+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 73,
+        "pressure_upstream": 74.3,
+        "pressure_downstream": 74.8,
+        "flow_rate": 32.9,
+        "timestamp": "2026-04-12T22:57:37.713192+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 74,
+        "pressure_upstream": 73.1,
+        "pressure_downstream": 73.8,
+        "flow_rate": 36.3,
+        "timestamp": "2026-04-12T22:57:37.713194+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 75,
+        "pressure_upstream": 72.6,
+        "pressure_downstream": 76.1,
+        "flow_rate": 36.3,
+        "timestamp": "2026-04-12T22:57:37.713197+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 76,
+        "pressure_upstream": 76.4,
+        "pressure_downstream": 74.3,
+        "flow_rate": 34.0,
+        "timestamp": "2026-04-12T22:57:37.713199+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 77,
+        "pressure_upstream": 75.2,
+        "pressure_downstream": 75.5,
+        "flow_rate": 35.7,
+        "timestamp": "2026-04-12T22:57:37.713201+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 78,
+        "pressure_upstream": 75.6,
+        "pressure_downstream": 77.5,
+        "flow_rate": 36.0,
+        "timestamp": "2026-04-12T22:57:37.713204+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 79,
+        "pressure_upstream": 76.9,
+        "pressure_downstream": 77.2,
+        "flow_rate": 36.9,
+        "timestamp": "2026-04-12T22:57:37.713206+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 80,
+        "pressure_upstream": 76.9,
+        "pressure_downstream": 77.0,
+        "flow_rate": 37.8,
+        "timestamp": "2026-04-12T22:57:37.713208+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 81,
+        "pressure_upstream": 77.2,
+        "pressure_downstream": 77.3,
+        "flow_rate": 34.3,
+        "timestamp": "2026-04-12T22:57:37.713210+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 82,
+        "pressure_upstream": 72.1,
+        "pressure_downstream": 74.9,
+        "flow_rate": 32.0,
+        "timestamp": "2026-04-12T22:57:37.713213+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 83,
+        "pressure_upstream": 77.7,
+        "pressure_downstream": 78.8,
+        "flow_rate": 32.5,
+        "timestamp": "2026-04-12T22:57:37.713215+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 84,
+        "pressure_upstream": 74.5,
+        "pressure_downstream": 75.2,
+        "flow_rate": 37.6,
+        "timestamp": "2026-04-12T22:57:37.713217+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 85,
+        "pressure_upstream": 76.7,
+        "pressure_downstream": 76.4,
+        "flow_rate": 37.4,
+        "timestamp": "2026-04-12T22:57:37.713219+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 86,
+        "pressure_upstream": 77.7,
+        "pressure_downstream": 78.6,
+        "flow_rate": 32.8,
+        "timestamp": "2026-04-12T22:57:37.713221+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 87,
+        "pressure_upstream": 75.2,
+        "pressure_downstream": 74.5,
+        "flow_rate": 33.3,
+        "timestamp": "2026-04-12T22:57:37.713223+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 88,
+        "pressure_upstream": 74.3,
+        "pressure_downstream": 76.9,
+        "flow_rate": 37.0,
+        "timestamp": "2026-04-12T22:57:37.713225+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 89,
+        "pressure_upstream": 74.6,
+        "pressure_downstream": 77.5,
+        "flow_rate": 36.5,
+        "timestamp": "2026-04-12T22:57:37.713228+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 90,
+        "pressure_upstream": 75.3,
+        "pressure_downstream": 73.9,
+        "flow_rate": 34.9,
+        "timestamp": "2026-04-12T22:57:37.713230+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 91,
+        "pressure_upstream": 73.5,
+        "pressure_downstream": 76.9,
+        "flow_rate": 37.9,
+        "timestamp": "2026-04-12T22:57:37.713233+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 92,
+        "pressure_upstream": 72.0,
+        "pressure_downstream": 78.4,
+        "flow_rate": 34.8,
+        "timestamp": "2026-04-12T22:57:37.713235+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 93,
+        "pressure_upstream": 77.6,
+        "pressure_downstream": 77.6,
+        "flow_rate": 35.9,
+        "timestamp": "2026-04-12T22:57:37.713237+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 94,
+        "pressure_upstream": 75.4,
+        "pressure_downstream": 73.0,
+        "flow_rate": 34.7,
+        "timestamp": "2026-04-12T22:57:37.713250+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 95,
+        "pressure_upstream": 77.2,
+        "pressure_downstream": 73.0,
+        "flow_rate": 32.9,
+        "timestamp": "2026-04-12T22:57:37.713252+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 96,
+        "pressure_upstream": 77.3,
+        "pressure_downstream": 75.3,
+        "flow_rate": 32.1,
+        "timestamp": "2026-04-12T22:57:37.713254+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 97,
+        "pressure_upstream": 73.1,
+        "pressure_downstream": 74.9,
+        "flow_rate": 35.5,
+        "timestamp": "2026-04-12T22:57:37.713256+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 98,
+        "pressure_upstream": 73.8,
+        "pressure_downstream": 73.6,
+        "flow_rate": 35.0,
+        "timestamp": "2026-04-12T22:57:37.713258+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 99,
+        "pressure_upstream": 77.5,
+        "pressure_downstream": 77.5,
+        "flow_rate": 35.1,
+        "timestamp": "2026-04-12T22:57:37.713260+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 100,
+        "pressure_upstream": 73.8,
+        "pressure_downstream": 76.4,
+        "flow_rate": 34.9,
+        "timestamp": "2026-04-12T22:57:37.713262+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 101,
+        "pressure_upstream": 72.8,
+        "pressure_downstream": 76.0,
+        "flow_rate": 115.0,
+        "timestamp": "2026-04-12T22:57:37.713265+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 102,
+        "pressure_upstream": 86.6,
+        "pressure_downstream": 49.9,
+        "flow_rate": 34.4,
+        "timestamp": "2026-04-12T22:57:37.713269+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 103,
+        "pressure_upstream": 82.0,
+        "pressure_downstream": 82.0,
+        "flow_rate": 82.0,
+        "timestamp": "2026-04-12T22:57:37.713273+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 104,
+        "pressure_upstream": 72.5,
+        "pressure_downstream": 78.1,
+        "flow_rate": 117.7,
+        "timestamp": "2026-04-12T22:57:37.713275+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 105,
+        "pressure_upstream": 92.1,
+        "pressure_downstream": 43.7,
+        "flow_rate": 36.1,
+        "timestamp": "2026-04-12T22:57:37.713280+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 106,
+        "pressure_upstream": 82.0,
+        "pressure_downstream": 82.0,
+        "flow_rate": 82.0,
+        "timestamp": "2026-04-12T22:57:37.713283+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 107,
+        "pressure_upstream": 76.8,
+        "pressure_downstream": 78.7,
+        "flow_rate": 91.5,
+        "timestamp": "2026-04-12T22:57:37.713285+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 108,
+        "pressure_upstream": 88.0,
+        "pressure_downstream": 36.4,
+        "flow_rate": 32.3,
+        "timestamp": "2026-04-12T22:57:37.713288+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 109,
+        "pressure_upstream": 82.0,
+        "pressure_downstream": 82.0,
+        "flow_rate": 82.0,
+        "timestamp": "2026-04-12T22:57:37.713291+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 110,
+        "pressure_upstream": 75.3,
+        "pressure_downstream": 77.2,
+        "flow_rate": 115.5,
+        "timestamp": "2026-04-12T22:57:37.713294+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 111,
+        "pressure_upstream": 92.7,
+        "pressure_downstream": 39.7,
+        "flow_rate": 36.2,
+        "timestamp": "2026-04-12T22:57:37.713296+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 112,
+        "pressure_upstream": 82.0,
+        "pressure_downstream": 82.0,
+        "flow_rate": 82.0,
+        "timestamp": "2026-04-12T22:57:37.713299+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 113,
+        "pressure_upstream": 73.4,
+        "pressure_downstream": 75.9,
+        "flow_rate": 116.0,
+        "timestamp": "2026-04-12T22:57:37.713301+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 114,
+        "pressure_upstream": 93.1,
+        "pressure_downstream": 33.8,
+        "flow_rate": 37.4,
+        "timestamp": "2026-04-12T22:57:37.713305+00:00"
+    },
+    {
+        "device_id": "House-Kitchen-Sensor",
+        "counter": 115,
+        "pressure_upstream": 82.0,
+        "pressure_downstream": 82.0,
+        "flow_rate": 82.0,
+        "timestamp": "2026-04-12T22:57:37.713308+00:00"
+    }
+]
