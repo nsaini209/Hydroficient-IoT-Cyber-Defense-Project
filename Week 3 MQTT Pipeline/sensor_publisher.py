@@ -87,7 +87,7 @@ def anomaly_reading(data):
         alerts.append("ALERT: FLOW RATE LOW - POSSIBLE BLOCKAGE")
     
     # Display
-    with print_lock:   # <-- acquire lock before any print
+    with print_lock:   
         print(f"\n{'─' * 40}")
         print(f"  Location:  {location}")
         print(f"  Device ID: {device_id}")
@@ -121,7 +121,7 @@ print("All sensors running. Press Ctrl+C to stop.")
 
 
 try:
-    while True:          # Bug 3 fix: keep main thread alive so daemon threads persist
+    while True:          
         time.sleep(1)
 except KeyboardInterrupt:
     print("\nShutting down all sensors.")
