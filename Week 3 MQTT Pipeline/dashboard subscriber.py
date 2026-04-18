@@ -3,13 +3,15 @@ import paho.mqtt.client as mqtt
 import json
 from datetime import datetime
 
+# This function is used to connected to the published to display
+# Given logs from the sensor
 def on_connect(client, userdata, flags, reason_code, properties):
     print("\n" + "=" * 60)
     print("  GRAND MARINA WATER MONITORING DASHBOARD")
     print("  Connected at:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 60)
     client.subscribe("hydroficient/grandmarina/#")
-
+# This function handles which path the engineer is subscribed to to see certain infomration
 def on_message(client, userdata, msg):
     topic = msg.topic
 
@@ -23,7 +25,8 @@ def on_message(client, userdata, msg):
         handle_status(msg)
     else:
         print(f"Unknown topic: {topic}")
-        
+
+#This function handles the sensor reading and what is displayed
 def handle_sensor_reading(msg):
     try:
         data = json.loads(msg.payload.decode())
@@ -43,7 +46,7 @@ def handle_command(msg):
 def handle_status(msg):
     # Could update a "last seen" tracker
     print(f"\n[STATUS] {msg.topic}: {msg.payload.decode()}")
-
+# This function displays the readings in a certain format so it's readable rather than displaying JSON Formati
 def display_reading(data):
     """Format and display a sensor reading."""
     print(f"\n{'─' * 40}")
