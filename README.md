@@ -5,4 +5,7 @@
  - Overview - This project presents a comprehensive Threat Model and Security Review of the Hydrologic System. The system manages critical maritime infrastructure, including digital water level sensors, automated flood pumps, and remote-controlled valves. These components form the "heart" of daily operations, ensuring dock stability and vessel safety. 
 
 ### Week 2 - Mock Sensor Data✅
-- Overview: Created a Mock Sensor that shows real values from what an actual sensor would display that monitors water pressure, upstream, downstream, and flowrate. I also created some anomalies so if there was a leakage, blockage, or sensor issues they will be displayed within the JSON file. 
+- Overview: Created a Mock Sensor that shows real values from what an actual sensor would display that monitors water pressure, upstream, downstream, and flowrate. I also created some anomalies so if there was a leakage, blockage, or sensor issues they will be displayed within the JSON file.
+
+### Week 3 - Building an Insecure MQTT Pipeline✅
+- Overview: Designed and deployed an intentionally vulnerable MQTT Pipeline to simulate common IoT security risks (Water Pipeline Sensor). By implementing cleartext communication protocols, I established a baseline for traffic analysis, allowing me to identify potential exploit vectors and practice packet-level inspection in a controlled environment.
