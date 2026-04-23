@@ -1,1 +1,3 @@
-### TLS Week 04
+# Week 4 - TLS Encryption
+
+### This weeks focus was on creating a one way TLS encryption to secure the data being transferred from the sensor --> broker --> dashboard. I created a generate_certs.py file that creates 3 files, CA Certificate which is the Root Certificate used by The Grand Marina Hotel (This is not a real Hotel) as well as creating a broker server ceritifcate and server private key that the CA can verify is a real broker to let the client have access. After creating my certificate generator and TLS encryption I moved onto doing experiments, I ran 4 experiments that tested eavesdropping, Fake certificate uses, Speed test, And stress test. You can find documentation within the folder.
