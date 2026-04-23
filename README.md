@@ -10,5 +10,5 @@
 ### Week 3 - Building an Insecure MQTT Pipeline✅
 - Overview: Designed and deployed an intentionally vulnerable MQTT Pipeline to simulate common IoT security risks (Water Pipeline Sensor). By implementing cleartext communication protocols, I established a baseline for traffic analysis, allowing me to identify potential exploit vectors and practice packet-level inspection in a controlled environment.
 
-### Week 4 - Certificates & TLS Encryption
+### Week 4 - Certificates & TLS Encryption ✅
 - Overview: Secured the MQTT pipeline by generating CA and server certificates using a generate_certs.py script and configuring Mosquitto to enforce TLS encryption on port 8883, rejecting any plain-text connections. Applied tls_set() across both the sensor publisher and dashboard subscriber to verify certificates on connection.
