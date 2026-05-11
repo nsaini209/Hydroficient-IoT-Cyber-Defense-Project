@@ -23,3 +23,30 @@ Ensure you have Python installed along with the following libraries:
 Before starting the broker, you must generate the Certificate Authority (CA), server, and client certificates:
 ```bash
 python generate_client_certs.py
+
+Running the Simulation (4-Terminal Guide)
+To replicate this simulation environment, open four separate Anaconda Prompt terminals and run the following commands in order:
+
+Terminal 1: Launch the Secure Broker
+Start the Mosquitto broker using the provided mTLS configuration file:
+
+Bash
+mosquitto -c mosquitto_mtls.conf -v
+Terminal 2: Start the Security Dashboard (Subscriber)
+Run the main monitoring pipeline.
+
+⚠️ CRITICAL: If you are testing this repository, you MUST run GITHUB_USER_SUBSCRIBER_DASHBOARD.py. Do not use subscriber_dashboard.py, as that file is configured specifically for my local VM environment and will not function correctly for external users.
+
+Bash
+python GITHUB_USER_SUBSCRIBER_DASHBOARD.py
+Terminal 3: Start Normal Operations (Publisher)
+Begin sending valid, defended telemetry from the simulated hotel sensors:
+
+Bash
+python publisher_defended.py
+Terminal 4: Execute Attack Simulation
+Run the attack script to demonstrate how the system identifies and blocks malicious activity:
+
+Bash
+python attack_simulator.py
+Once Terminal 4 begins, watch your Splunk dashboard for real-time Attack Detected alerts as the subscriber identifies and rejects eavesdropping, injection, and replay attempts.
