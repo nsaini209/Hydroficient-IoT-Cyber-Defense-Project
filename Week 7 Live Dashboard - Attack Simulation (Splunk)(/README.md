@@ -43,5 +43,10 @@ This is how we display our subscriber dashboard, activate the publisher, mosquit
 #### This is what you should see!
 <img width="1270" height="1045" alt="Screenshot 2026-05-08 114606" src="https://github.com/user-attachments/assets/6b58e8c9-9dd6-4e0f-8571-6f82092bd247" />
 
+#### Splunk Dashboard I've Created!
+<img width="2547" height="1140" alt="Screenshot 2026-05-11 103819" src="https://github.com/user-attachments/assets/9c55f877-e5b7-49d6-9bd1-4b92d355feff" />
+
+
+
 
 
