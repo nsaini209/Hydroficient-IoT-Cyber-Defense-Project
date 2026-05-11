@@ -12,3 +12,14 @@
 
 ### Week 4 - Certificates & TLS Encryption ✅
 - Overview: Secured the MQTT pipeline by generating CA and server certificates using a generate_certs.py script and configuring Mosquitto to enforce TLS encryption on port 8883, rejecting any plain-text connections. Applied tls_set() across both the sensor publisher and dashboard subscriber to verify certificates on connection.
+
+### Week 5 - Mutual TLS (mTLS) Implementation ✅
+Overview: Strengthened the pipeline with Mutual TLS (mTLS) by generating unique client certificates for each simulated IoT device and requiring the broker to verify client identities. Updated the Mosquitto configuration to enforce require_certificate true, ensuring that only authenticated devices with valid, CA-signed credentials can access the MQTT network.
+
+### Week 6 - Triple-Layer Replay Defenses ✅
+Overview: Engineered a "Triple-Layer Defense" to protect telemetry data from injection and replay attacks by implementing HMAC-SHA256 signatures for message integrity, strict timestamp "freshness" windows, and incrementing sequence counters. This cryptographic validation ensures that every sensor reading is verified as authentic and original before it is processed by the backend.
+
+### Week 7 - Splunk Integration & Attack Simulation ✅
+Overview: Integrated the secure pipeline with Splunk via the HTTP Event Collector (HEC), transforming raw terminal logs into a high-fidelity security dashboard for real-time monitoring. Validated the system’s resilience by running an Attack Simulator that executed eavesdropping, data injection, and replay attempts, successfully identifying and blocking every threat on the live dashboard.
+
+<img width="2547" height="1140" alt="Screenshot 2026-05-11 103819" src="https://github.com/user-attachments/assets/dbdbc1a0-10dd-469a-ba9e-12bdd44c6aab" />
