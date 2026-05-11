@@ -17,36 +17,31 @@ Ensure you have Python installed along with the following libraries:
 * **MQTT:** `pip install paho-mqtt`
 * **Security/Encryption:** `pip install cryptography`
 * **Networking:** `pip install requests websockets`
+* **Python**  Install [Python](https://www.python.org/downloads/)
 * **Broker:** Install the [Mosquitto MQTT Broker](https://mosquitto.org/download/).
+* **Anaconda:** Install the [Anaconda Terminal](https://www.anaconda.com/docs/getting-started/anaconda/install/overview).
 
 ### 2. Generate mTLS Certificates
-Before starting the broker, you must generate the Certificate Authority (CA), server, and client certificates:
-```bash
-python generate_client_certs.py
+Before starting the broker, you must generate the Certificate Authority (CA), server, and client certificates
+`python generate_client_certs.py`
 
-Running the Simulation (4-Terminal Guide)
-To replicate this simulation environment, open four separate Anaconda Prompt terminals and run the following commands in order:
+### 3. Running Terminals 1-4
+This is how we display our subscriber dashboard, activate the publisher, mosquitto broker, and attack simulation.
 
-Terminal 1: Launch the Secure Broker
-Start the Mosquitto broker using the provided mTLS configuration file:
+####  --------------- NOTE: Every terminal involves navigating to the correct directory for the file to execute ---------------
 
-Bash
-mosquitto -c mosquitto_mtls.conf -v
-Terminal 2: Start the Security Dashboard (Subscriber)
-Run the main monitoring pipeline.
+* **Terminal 1 Mosquitto Broker:** `mosquitto -c mosquitto_mtls.conf`
+* **Terminal 2 Subscriber Dashboard:**  PLEASE NOTE TO USE GITHUB_USER_SUBSCRIBER_DASHBOARD.PY as subscriber_dashboard.py will not work as that is ran locally with Splunk
+`python GITHUB_USER_SUBSCRIBER_DASHBOARD.py`
+* * **Terminal 3 Publisher Dashboard:** `python publisher_defended.py`
+* * **Terminal 1 Mosquitto Broker:** `attack_simulator.py`
+#### ----- Make sure your dashboard is active and picking up logs, once you run the attack it will display blocked attacks! -----
 
-⚠️ CRITICAL: If you are testing this repository, you MUST run GITHUB_USER_SUBSCRIBER_DASHBOARD.py. Do not use subscriber_dashboard.py, as that file is configured specifically for my local VM environment and will not function correctly for external users.
 
-Bash
-python GITHUB_USER_SUBSCRIBER_DASHBOARD.py
-Terminal 3: Start Normal Operations (Publisher)
-Begin sending valid, defended telemetry from the simulated hotel sensors:
+## 📷 Screenshots
 
-Bash
-python publisher_defended.py
-Terminal 4: Execute Attack Simulation
-Run the attack script to demonstrate how the system identifies and blocks malicious activity:
+#### This is what you should see!
+<img width="1270" height="1045" alt="Screenshot 2026-05-08 114606" src="https://github.com/user-attachments/assets/6b58e8c9-9dd6-4e0f-8571-6f82092bd247" />
 
-Bash
-python attack_simulator.py
-Once Terminal 4 begins, watch your Splunk dashboard for real-time Attack Detected alerts as the subscriber identifies and rejects eavesdropping, injection, and replay attempts.
+
+
