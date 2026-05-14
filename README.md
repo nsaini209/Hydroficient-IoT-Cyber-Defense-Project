@@ -1,5 +1,6 @@
-# Hydroficient-IoT-Cyber-Defense-Project
+# Hydroficient IoT Cyber Defense Extern Project
 ## For the next 8-12 Weeks my objective is to architect a secure, end-to-end MQTT telemetry pipeline for The Grand Marina Hotel (Hypothetical), Simulating real-world cyber threats to critical infrastructure and implementing defense-in-depth strategies to mitigate them.
+## 💠 For Instructions on how to run the final prototype, please head to Week 8. 💠
 
 ### Week 1 - Threat Model ✅
  - Overview - This project presents a comprehensive Threat Model and Security Review of the Hydrologic System. The system manages critical maritime infrastructure, including digital water level sensors, automated flood pumps, and remote-controlled valves. These components form the "heart" of daily operations, ensuring dock stability and vessel safety. 
@@ -22,4 +23,7 @@ Overview: Engineered a "Triple-Layer Defense" to protect telemetry data from inj
 ### Week 7 - Splunk Integration & Attack Simulation ✅
 Overview: Integrated the secure pipeline with Splunk via the HTTP Event Collector (HEC), transforming raw terminal logs into a high-fidelity security dashboard for real-time monitoring. Validated the system’s resilience by running an Attack Simulator that executed eavesdropping, data injection, and replay attempts, successfully identifying and blocking every threat on the live dashboard.
 
-<img width="2547" height="1140" alt="Screenshot 2026-05-11 103819" src="https://github.com/user-attachments/assets/dbdbc1a0-10dd-469a-ba9e-12bdd44c6aab" />
+### Week 8 - AI Anomaly Detection ✅
+Overview: Integrated an  Isolation Forest model to analyze real-time MQTT telemetry, specifically designed to identify statistical outliers like pipe leakages or sensor tampering that signature-based defenses might miss. By training the model on historical flowrate and pressure data, I achieved a 0.757 F1-score, ensuring high precision in distinguishing legitimate operational fluctuations from malicious anomalies. These AI-driven insights were funneled into the Splunk dashboard, completing the defense-in-depth strategy by providing a final, behavioral layer of security that triggers automated alerts the moment a deviation occurs.
+<img width="2546" height="1261" alt="Screenshot 2026-05-13 131144" src="https://github.com/user-attachments/assets/73b745f2-4e81-41f1-955f-370fa59637cc" />
+
