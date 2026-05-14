@@ -3,6 +3,8 @@
 ### This week, the focus was on architecting an AI-integrated security pipeline for an industrial water monitoring system, specifically deploying an Isolation Forest model to detect subtle sensor anomalies. This involved a rigorous training phase where model performance was evaluated using Precision, Recall, and F1 scores, alongside a comparison between Isolation Forest and Local Outlier Factor (LOF) algorithms. Tuning the contamination rate was critical in optimizing the model's ability to distinguish between normal fluctuations and genuine sensor malfunctions, such as high-pressure obstructions or supply failures. To bridge the gap between detection and visibility, a secure MQTT subscriber was developed to perform real-time rule validation—checking HMAC signatures, timestamps, and sequence numbers—before running the AI inference. 
 ### This pipeline ensures that only authenticated and non-tampered data reaches the model. The entire system was then integrated with a Splunk dashboard, providing a centralized view for monitoring telemetry and security events. Final validation was completed using a custom anomaly injector to test the AI’s response to subtle data drifts and an attack simulator to confirm that traditional network-based threats remained blocked by the mTLS and rule-based defenses.
 
+### NOTE: The Splunk Dashboard is custom and ran locally. I have still left files for you to run on your machine in a web interface which is a easier to setup.
+
 ## 🚀 How to Run the Dashboard
 
 ### 1. Prerequisites
