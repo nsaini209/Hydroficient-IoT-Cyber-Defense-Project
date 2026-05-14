@@ -15,6 +15,7 @@ Ensure you have Python installed along with the following libraries:
 * **Python**  Install [Python](https://www.python.org/downloads/)
 * **Broker:** Install the [Mosquitto MQTT Broker](https://mosquitto.org/download/).
 * **Anaconda:** Install the [Anaconda Terminal](https://www.anaconda.com/docs/getting-started/anaconda/install/overview).
+* **AI Model:** Make sure to import the given joblib file.
 
 ### 2. Generate mTLS Certificates
 Before starting the broker, you must generate the Certificate Authority (CA), server, and client certificates
