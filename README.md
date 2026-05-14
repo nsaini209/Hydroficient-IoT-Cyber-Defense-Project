@@ -1,6 +1,6 @@
 # Hydroficient IoT Cyber Defense Extern Project
 ## For the next 8-12 Weeks my objective is to architect a secure, end-to-end MQTT telemetry pipeline for The Grand Marina Hotel (Hypothetical), Simulating real-world cyber threats to critical infrastructure and implementing defense-in-depth strategies to mitigate them.
-## 💠 For Instructions on how to run the final prototype, please head to Week 8.💠
+### 💠 For Instructions on how to run the final prototype, please head to Week 8.💠
 
 ### Week 1 - Threat Model ✅
  - Overview - This project presents a comprehensive Threat Model and Security Review of the Hydrologic System. The system manages critical maritime infrastructure, including digital water level sensors, automated flood pumps, and remote-controlled valves. These components form the "heart" of daily operations, ensuring dock stability and vessel safety. 
